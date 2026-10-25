@@ -23,8 +23,8 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                bat 'docker --version'
-                bat 'docker build -t nodejs-demo-task2:latest .'
+                bat '"C:\\Users\\moham\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" --version'
+                bat '"C:\\Users\\moham\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t nodejs-demo-task2:latest .'
             }
         }
 
